@@ -1,0 +1,115 @@
+/* General Reset*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: url('/img/background.png');
+    height: 1000px;
+    background-size: cover;
+}
+
+.container{
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.615);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(27, 9, 19);
+    font-size: 20px;
+    transition: 0.4s;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    color: rgb(158, 84, 175);
+}
+
+.navbar .action{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.action-button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-button.email{
+    align-items: center;
+}
+
+.action-button.login{
+    background-color: rgb(205, 86, 163);
+    color: rgb(96, 49, 113);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
