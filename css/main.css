@@ -114,7 +114,7 @@ margin-top: 20px;
 }
 
 .btn1:hover{
-    background-color: white;
+    background-color: transparent;
     color: #562B6C;
     transition: 0.4s;
 }
@@ -161,7 +161,7 @@ margin-top: 20px;
     border: 2px solid #562B6C;
 }
 .btn4:hover{
-    background-color: white;
+    background-color: transparent;
     font-weight: bold ;
     color: #562B6C;
     transition: 0.4s;
