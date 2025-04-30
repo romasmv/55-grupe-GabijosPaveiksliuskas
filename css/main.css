@@ -5,17 +5,16 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/img/background.png');
+    background: url('/img/background.png') no-repeat center center fixed;
     background-color: rgba(255, 255, 255, 0.615);
     background-size: cover;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
 
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    width: 800px;
     justify-content: space-between;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     padding: 20px;
@@ -75,7 +74,7 @@ body{
     }
 
 .main-column{
-    margin-top: 170px;
+    margin-top: 160px;
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -90,6 +89,8 @@ margin: 0%;
 
 .description{
 font-size: 22px;
+margin: 0px;
+margin-top: 20px;
 }
 
 .btn-grp{
@@ -98,12 +99,12 @@ font-size: 22px;
     gap: 20px;
     justify-content: center;
     align-items: center;
-     ;
-    
+    margin-top: 30px;
+    font-weight: bold ;
 }
 
 .btn1 {
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 25px;
     background-color:#562B6C ;
     color: white;
@@ -111,13 +112,24 @@ font-size: 22px;
     border: 2px solid #562B6C;
     
 }
+
+.btn1:hover{
+    background-color: white;
+    color: #562B6C;
+    transition: 0.4s;
+}
 .btn2{
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 25px;
     background-color: transparent;
     color: #562B6C;
     text-decoration: none;
     border: 2px solid #562B6C;
+}
+.btn2:hover{
+    background-color: #562B6C;
+    color: white;
+    transition: 0.4s;
 }
 
 .btn-grp2{
@@ -127,23 +139,32 @@ font-size: 22px;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    font-weight: bold ;
+
 }
 
 .btn3 {
     padding: 10px 20px;
     border-radius: 25px;
     background-color:white;
-    padding-right: 250px;
+    padding-right: 280px;
    
     text-decoration: none;
 }
 
 .btn4{
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 25px;
     background-color:#562B6C;
     color: white;
     text-decoration: none;
+    border: 2px solid #562B6C;
+}
+.btn4:hover{
+    background-color: white;
+    font-weight: bold ;
+    color: #562B6C;
+    transition: 0.4s;
 }
 
 
