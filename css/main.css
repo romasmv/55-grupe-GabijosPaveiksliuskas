@@ -76,7 +76,7 @@ body{
 }
 
 .main-column{
-    margin-top: 160px;
+    margin-top: 220px;
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -85,7 +85,7 @@ body{
 }
 .title{
 font-size:60px;
-color: #562B6C;
+color: rgb(158, 84, 175);
 margin: 0%;
 }
 
@@ -93,6 +93,7 @@ margin: 0%;
 font-size: 22px;
 margin: 0px;
 margin-top: 20px;
+color:grey;
 }
 
 .btn-grp{
@@ -108,16 +109,16 @@ margin-top: 20px;
 .btn1 {
     padding: 15px 30px;
     border-radius: 25px;
-    background-color:#562B6C ;
+    background-color:rgb(142, 72, 158) ;
     color: white;
     text-decoration: none;
-    border: 2px solid #562B6C;
+    border: 2px solid rgb(142, 72, 158);
     
 }
 
 .btn1:hover{
     background-color: transparent;
-    color: #562B6C;
+    color: rgb(142, 72, 158);
     transition: 0.4s;
 }
 
@@ -125,13 +126,13 @@ margin-top: 20px;
     padding: 15px 30px;
     border-radius: 25px;
     background-color: transparent;
-    color: #562B6C;
+    color: rgb(142, 72, 158);
     text-decoration: none;
-    border: 2px solid #562B6C;
+    border: 2px solid rgb(142, 72, 158);
 }
 
 .btn2:hover{
-    background-color: #562B6C;
+    background-color: rgb(142, 72, 158);
     color: white;
     transition: 0.4s;
 }
@@ -147,11 +148,11 @@ margin-top: 20px;
 
 }
 
-.btn3 {
+.btn-grp2 input[type="email"] {
     padding: 10px 20px;
     border-radius: 25px;
     background-color:white;
-    padding-right: 280px;
+    padding-right: 200px;
     text-decoration: none;
     border: 1px solid white;
 }
@@ -159,16 +160,16 @@ margin-top: 20px;
 .btn4{
     padding: 10px 30px;
     border-radius: 25px;
-    background-color:#562B6C;
+    background-color:rgb(142, 72, 158);
     color: white;
     text-decoration: none;
-    border: 2px solid #562B6C;
+    border: 2px solid rgb(142, 72, 158);
 }
 
 .btn4:hover{
     background-color: transparent;
     font-weight: bold ;
-    color: #562B6C;
+    color: rgb(142, 72, 158);
     transition: 0.4s;
 }
 
