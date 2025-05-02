@@ -6,12 +6,14 @@ body{
     width: 100vw;
     height: 100vh;
     background: url('/img/background.png') no-repeat center center fixed;
-    background-color: rgba(255, 255, 255, 0.615);
     background-size: cover;
     backdrop-filter: blur(4px);
-
 }
-
+.background{
+    background-color: rgba(255, 255, 255, 0.615);
+    background-size: cover; 
+    height: 100%;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -71,7 +73,7 @@ body{
 .action-button.login{
     background-color: rgb(205, 86, 163);
     color: rgb(96, 49, 113);
-    }
+}
 
 .main-column{
     margin-top: 160px;
@@ -118,6 +120,7 @@ margin-top: 20px;
     color: #562B6C;
     transition: 0.4s;
 }
+
 .btn2{
     padding: 15px 30px;
     border-radius: 25px;
@@ -126,6 +129,7 @@ margin-top: 20px;
     text-decoration: none;
     border: 2px solid #562B6C;
 }
+
 .btn2:hover{
     background-color: #562B6C;
     color: white;
@@ -133,12 +137,12 @@ margin-top: 20px;
 }
 
 .btn-grp2{
-    margin-top: 40px;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 20px;
     font-weight: bold ;
 
 }
@@ -148,8 +152,8 @@ margin-top: 20px;
     border-radius: 25px;
     background-color:white;
     padding-right: 280px;
-   
     text-decoration: none;
+    border: 1px solid white;
 }
 
 .btn4{
@@ -160,6 +164,7 @@ margin-top: 20px;
     text-decoration: none;
     border: 2px solid #562B6C;
 }
+
 .btn4:hover{
     background-color: transparent;
     font-weight: bold ;
